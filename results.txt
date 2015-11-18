@@ -1,0 +1,65 @@
+---------------------------------
+Saturday Oct 03 2015 01:06:26 PM:
+---------------------------------
+
+System information:
+	   OS:
+		Linux colo1 3.19.0-26-generic #28-Ubuntu SMP Tue Aug 11 14:16:32 UTC 2015 x86_64 x86_64 x86_64 GNU/Linux
+
+ 	   CPU:
+		Architecture: x86_64 CPU op-mode(s): 32-bit, 64-bit Byte Order: Little Endian CPU(s): 2 On-line CPU(s) list: 0,1 Thread(s) per core: 1 Core(s) per socket: 2 Socket(s): 1 NUMA node(s): 1 Vendor ID: GenuineIntel CPU family: 6 Model: 15 Model name: Intel(R) Core(TM)2 Duo CPU L7500 @ 1.60GHz Stepping: 11 CPU MHz: 1200.000 CPU max MHz: 1601.0000 CPU min MHz: 800.0000 BogoMIPS: 3191.82 Virtualization: VT-x L1d cache: 32K L1i cache: 32K L2 cache: 4096K NUMA node0 CPU(s): 0,1
+
+
+Language versions:
+	C:
+		gcc (Ubuntu 4.9.2-10ubuntu13) 4.9.2
+	Java:
+		openjdk version "1.8.0_45-internal" OpenJDK Runtime Environment (build 1.8.0_45-internal-b14) OpenJDK 64-Bit Server VM (build 25.45-b02, mixed mode)
+	Python:
+		Python 2.7.9
+	Ruby:
+		ruby 2.1.2p95 (2014-05-08) [x86_64-linux-gnu]
+	NodeJS:
+		v0.10.25		
+
+Testing C...
+6857 
+
+real	0m0.001s
+user	0m0.000s
+sys	0m0.000s
+
+
+Testing Java...
+6857
+
+real	0m0.143s
+user	0m0.148s
+sys	0m0.016s
+
+
+Testing Python...
+6857
+
+real	0m0.021s
+user	0m0.012s
+sys	0m0.008s
+
+
+Testing Ruby...
+6857
+
+real	0m0.061s
+user	0m0.052s
+sys	0m0.008s
+
+
+Testing JavaScript...
+
+real	0m0.001s
+user	0m0.000s
+sys	0m0.000s
+
+
+Testing complete! 
+-----------------
