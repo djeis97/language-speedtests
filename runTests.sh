@@ -20,6 +20,7 @@ JAVA="$(java -version 2>&1)"
 PYTHON="$(python --version 2>&1)"
 RUBY="$(ruby --version 2>&1)"
 NODE="$(node --version 2>&1)"
+LISP="$(ccl -V 2>&1)"
 
 echo -e "
 
@@ -46,6 +47,8 @@ Language versions:
 		`echo $RUBY`
 	NodeJS:
 		`echo $NODE`
+  Clozure Common Lisp:
+    `echo $LISP`
 "
 
 echo "Testing C..."
@@ -68,6 +71,10 @@ echo -e "\n"
 
 echo "Testing JavaScript..."
 (time node ./src/Prime.js)
+echo -e "\n"
+
+echo "Testing Clozure Common Lisp"
+(time ccl --load ./src/Prime.ccl.lisp)
 echo -e "\n"
 
 echo -e "Testing complete! \n-----------------"
